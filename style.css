@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  background-color: rgb(255, 167, 181);
+  height: 800px;
+  width: 1250px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.img {
+  float: left;
+  width: 45%;
+  height:100px ;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+  .right{
+      float: right;
+      width: 45%;
+      background-color: rgb(145, 145, 145);
+      margin-top: 80px;
+      margin-right: 20px;
+      padding-left: 20px;
+  }
+  button {
+    color: var(--Primary-Grey-6, #fff);
+    font-family: Manrope;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    background-color: orange;
+  }
+  h2 {
+    color: #000;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .cat {
+    color: green;
+  
+    font-family: Manrope;
+    font-size: 2dvh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 125% */
+    letter-spacing: 1.98px;
+    display: inline;
+  }
+  .star,
+  p {
+    display: inline;
+  }
+  .des {
+    display: block;
+    color: #000;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.24px;
+  }
+  .rectt {
+    border: 2px solid black;
+    box-shadow: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: gray;
+  }
+  .rectt:hover {
+    background-color: rgb(95, 86, 86);
+  }
+  ul li {
+    color: #000;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 177.994%; /* 21.359px */
+    letter-spacing: 0.24px;
+  }
+  .rect img {
+    margin-right: 30px;
+    border-radius: 10px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      ),
+      url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  .rect img:hover {
+    background-color: red;
+    color: blue;
+  }
+  .rect h6 {
+    color: #000;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+  }
+  .button button {
+    border: 1 solid black;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(92, 82, 82);
+  }
+  .btn {
+    margin-top: 1%;
+    height: 20px;
+    width: 60px;
+  }
